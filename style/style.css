@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body {
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+
+
+  /* nav style */
+  .nav-container{
+    border: 2px solid red;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+
+  }
+  .first-nav{
+    display: flex;
+  }
+  .nav-container .nd-nav{
+
+display: flex;
+flex-direction: row;
+
+  }
+  ul{
+    display: flex;
+flex-direction: row;
+text-decoration: none;
+order: none;
+  }
+  .image-container{
+    height: 500px;
+    width: 1343px;
+    border: 2px solid red;
+    background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    
+   
+  }
