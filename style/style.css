@@ -16,13 +16,17 @@ flex-direction: row;
 justify-content: space-between;
 
   }
+
   .first-nav{
     display: flex;
   }
-  .nav-container .nd-nav{
+  .nav-container {
 
 display: flex;
 flex-direction: row;
+
+  }
+  .nd-nav{
 
   }
   ul{
@@ -36,6 +40,47 @@ order: none;
     width: 1343px;
     border: 2px solid red;
     background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
    
+  }
+  .image-container>h1, p{
+    color: beige;
+  }
+  .dropbox-container{
+    /* Frame 1 */
+position: relative;
+width: 800px;
+height: 84px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 24;
+padding: 16px;
+
+border-radius: 8px;
+
+background: rgba(255, 255, 255, 0.3);
+
+  }
+  .dp-element{
+  
+
+width: 174px;
+height: 52px;
+left: 16px;
+right: -16px;
+top: 16px;
+bottom: -16px;
+border-radius: 8px;
+padding: 5px;
+margin: 5px;
+background: rgb(255, 255, 255);
+display: flex;
+justify-content: center;
+align-items: center;
   }
