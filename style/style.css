@@ -16,6 +16,9 @@ flex-direction: row;
 justify-content: space-between;
 
   }
+.logo{
+    color: rgb(255, 182, 80);
+  }
 
   .first-nav{
     display: flex;
@@ -24,21 +27,26 @@ justify-content: space-between;
 
 display: flex;
 flex-direction: row;
+align-items: flex-end;
 
   }
   .nd-nav{
-
+display: flex;
+font-display: row;
+justify-content: space-between;
+text-decoration: none;
   }
   ul{
     display: flex;
 flex-direction: row;
 text-decoration: none;
+justify-content: space-around;
 order: none;
   }
   .image-container{
     height: 500px;
     width: 1343px;
-    border: 2px solid red;
+  
     background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
     display: flex;
     flex-direction: column;
@@ -83,4 +91,7 @@ background: rgb(255, 255, 255);
 display: flex;
 justify-content: center;
 align-items: center;
+  }
+  .text-direction{
+    
   }
