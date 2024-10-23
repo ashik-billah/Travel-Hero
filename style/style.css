@@ -250,5 +250,18 @@ font-size: 24px;
   .ham-burger{
     display: block;
   }
+  h3 {
+    font-size: 26px;
+  }
+  .ham-burger{
+    font-size: 26px;
+  }
+  .container{
+    margin: 3rem auto;
+  }
+  p{
+    font-size: 16px;
+  }
+
   
 }
