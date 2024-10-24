@@ -151,6 +151,11 @@ letter-spacing: .5px;
   text-align: left;
 }
 
+.popular-container img{
+  height: 100%;
+  width: 100%;
+}
+
 .btn{
   height: 52px;
   width: 140px;
@@ -273,6 +278,8 @@ font-size: 24px;
 width: 100%;
 margin: 1rem;
   }
-  
+  .popular-container{
+    grid-template-columns: 1fr;
+  }
   
 }
