@@ -250,18 +250,29 @@ font-size: 24px;
   .ham-burger{
     display: block;
   }
-  h3 {
-    font-size: 26px;
-  }
   .ham-burger{
     font-size: 26px;
   }
   .container{
     margin: 3rem auto;
   }
-  p{
-    font-size: 16px;
+  .explore-container h3 {
+    font-size: 26px;
   }
+  .explore-container p {
+    width: 60%;
+  }
+  .travel-inputs{
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+    
 
+  }
+  .travel-inputs input, select, button{
+width: 100%;
+margin: 1rem;
+  }
+  
   
 }
